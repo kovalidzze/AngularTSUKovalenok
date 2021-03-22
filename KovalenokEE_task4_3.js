@@ -17,7 +17,7 @@ function showArrayResult()
     else {
         if (i < 4 || i > realArray.length )
         {
-            alert ("Ошибка, введите число не меньше 3 и не больше длины массива");
+            alert ("Ошибка, введите число не меньше 4 и не больше длины массива");
         }
         else {
     let result = realArray.slice(0,i);
