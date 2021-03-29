@@ -7,7 +7,7 @@ const data2 = { c: 1, b: 2 };
 const intersection = (object1, object2) => 
 {
     const keyObj1 = [];
-    for (let key in data1)
+    for (let key in object1)
       {
         keyObj1.push(key);
       }
