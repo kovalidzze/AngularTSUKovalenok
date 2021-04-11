@@ -48,7 +48,7 @@ class Maria_ra extends Shop {
 //let shop = new Shop ("Пятерочка", "Корнилово", "8-800-555-35-55", 15);
 //shop.greetVisitors();
 //shop.showInfoAboutShop();
-let lenta = new Lenta ("Лента", "Южка", "8-800-555-35-55", 10);
-let mariaRa = new Maria_ra ("Мария-ра", "Иркутский 110А", "8-800-666-35-55", 5);
+let lenta: Lenta = new Lenta ("Лента", "Южка", "8-800-555-35-55", 10);
+let mariaRa: Maria_ra = new Maria_ra ("Мария-ра", "Иркутский 110А", "8-800-666-35-55", 5);
 lenta.sayRating();
 mariaRa.sayRating();
