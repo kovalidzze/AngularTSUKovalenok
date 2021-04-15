@@ -3,14 +3,14 @@
 
 //Мой класс, великий магазин
 abstract class Shop {
-   public theNumberOfEmployees: Number  = 20;
-   public durationOfWork: Number  = 10;
-   public numberPhone: String;
-   public name: String;
-   public address: String;
+   public theNumberOfEmployees: number  = 20;
+   public durationOfWork: number  = 10;
+   public numberPhone: string;
+   public name: string;
+   public address: string;
 
 
-   constructor(name: String, address: String, numberPhone: String, durationOfWork: Number){
+   constructor(name: string, address: string, numberPhone: string, durationOfWork: number){
       this.name = name;
       this.address = address;
       this.numberPhone = numberPhone;
@@ -29,7 +29,7 @@ abstract class Shop {
 //Наследники мои
 
 class Lenta extends Shop {
-   public rating: Number  = 5;
+   public rating: number  = 5;
     
    sayRating(){
      console.log("Я, " + `${this.name}`+ ", " + "расположенная по адресу: " + `${this.address}` + ", " + "очень крутой магазин в Томске, потому что у меня рейтинг: " + `${this.rating}`);
@@ -37,7 +37,7 @@ class Lenta extends Shop {
 }
 
 class Maria_ra extends Shop {
-   public rating: Number = 2;
+   public rating: number = 2;
    
    sayRating(){
        console.log("Я, " + `${this.name}`+ ", " + "расположенная по адресу: " + `${this.address}` + ", " + "неудачник Томска, потому что у меня рейтинг: " + `${this.rating}` + ", " + "да и работаю так мало, всего: " + `${this.durationOfWork}` + " ч! :(");
